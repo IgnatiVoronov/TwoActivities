@@ -21,8 +21,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         mMessageEditText = findViewById(R.id.editText)
-        mReplyHeadTextView = findViewById(R.id.textHeaderReplyTextView)
-        mReplyTextView = findViewById(R.id.textMessageReplyTextView)
+        mReplyHeadTextView = findViewById(R.id.textHeaderTextView)
+        mReplyTextView = findViewById(R.id.textMessageTextView)
     }
 
     fun launchSecondActivity(view: View) {

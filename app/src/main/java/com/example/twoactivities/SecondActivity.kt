@@ -20,7 +20,7 @@ class SecondActivity : AppCompatActivity() {
 
         val intent = intent
         val message = intent.extras?.getString("Message")
-        val textView: TextView = findViewById(R.id.textMessageReplyTextView)
+        val textView: TextView = findViewById(R.id.textMessageTextView)
 
         mReply = findViewById(R.id.editText2);
         textView.text = message.toString()

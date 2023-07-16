@@ -7,25 +7,25 @@
     tools:context=".SecondActivity">
 
     <TextView
-        android:id="@+id/textHeaderReplyTextView"
+        android:id="@+id/textHeaderTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="@string/textHeaderReply"
+        android:text="@string/textHeader"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textMessageReplyTextView"
+        android:id="@+id/textMessageTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:text=""
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textHeaderReplyTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/textHeaderTextView" />
 
     <Button
         android:id="@+id/replyButton"
@@ -39,8 +39,9 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         android:layout_marginBottom="20dp"
         android:autofillHints=""
         android:ems="10"
